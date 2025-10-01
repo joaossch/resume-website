@@ -1,0 +1,15 @@
+{
+  "name": "resume-website",
+  "version": "1.0.0",
+  "description": "A personal resume website showcasing skills, experience, and education.",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build step can be added here.'"
+  },
+  "author": "João Pedro De Souza Schlichting",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
