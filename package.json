@@ -5,11 +5,16 @@
   "main": "public/index.html",
   "scripts": {
     "start": "live-server public",
-    "build": "echo 'Build step can be added here.'"
+    "build": "echo 'Build step can be added here.'",
+    "serve": "firebase serve",
+    "deploy": "firebase deploy"
   },
   "author": "João Pedro De Souza Schlichting",
   "license": "MIT",
   "dependencies": {
     "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "firebase-tools": "^12.0.0"
   }
 }
